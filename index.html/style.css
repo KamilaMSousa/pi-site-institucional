@@ -1,0 +1,52 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: black;
+    border: aquamarine 5px solid;
+    height: 100px;
+}
+
+.div_conteiner{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background-color: black;
+}
+
+.header .div_conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbr{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.header h1 {
+    color: aquamarine;
+}
+
+.navbr li {
+    color: goldenrod;
+    font-weight: lighter;
+}
+
+.navbr .active {
+    font-weight: bolder;
+}
+
+.navbr li a {
+    text-decoration: none;
+    color: goldenrod;
+}
+

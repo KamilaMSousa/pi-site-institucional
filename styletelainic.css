@@ -163,3 +163,39 @@
     padding: 10px 20px;
     border-radius: 10px;
 }
+
+.banner .forecadas {
+    background-color: white;
+    height: 400px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.banner .forecadas {
+    color: tomato;
+}
+
+.banner .forecadas div {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner .forecadas div input {
+    border: solid tomato 2px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.banner .forecadas button {
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
